@@ -1,0 +1,18 @@
+# general
+alias cl="clear"
+alias tm="tmux"
+
+# git aliases
+alias gs='git status'
+alias gd='git diff'
+alias ga='git add'
+alias gl='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
+alias glg='git log --decorate --graph --oneline'
+
+# file system
+alias ll="ls -lGa"
+alias l="ll"
+
+# apps
+alias vg="vagrant"
+alias be="bundle exec"
