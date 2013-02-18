@@ -1,18 +1,22 @@
 # general
 alias cl="clear"
 alias tm="tmux"
+alias ll="ls -lGa"
+alias l="ll"
+alias fs='foreman start'
 
 # git aliases
+alias gc='git commit'
 alias gs='git status'
 alias gd='git diff'
 alias ga='git add'
 alias gl='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
-alias glg='git log --decorate --graph --oneline'
-
-# file system
-alias ll="ls -lGa"
-alias l="ll"
+alias glgraph='git log --decorate --graph --oneline'
+alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # apps
 alias vg="vagrant"
 alias be="bundle exec"
+
+#PS1 additions
+export PS1='\[\033[31;40m\](\w)\[\033[0;33m\]$(parse_git_branch)\[\e[0m\]$ '
