@@ -19,4 +19,4 @@ alias vg="vagrant"
 alias be="bundle exec"
 
 #PS1 additions
-export PS1='\[\033[31;40m\](\w)\[\033[0;33m\]$(parse_git_branch)\[\e[0m\]$ '
+export PS1='\[\033[31;40m\](\w)\[\033[0;33m\]$(parse_git_branch)\[\e[0m\]$ '1
