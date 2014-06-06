@@ -1,5 +1,6 @@
 install brew-cask
 tap phinze/cask
+
 cask install adobe-reader
 cask install filezilla
 cask install google-chrome
@@ -13,6 +14,7 @@ cask install hipchat
 cask install vagrant
 cask install vlc
 
+tap homebrew/dupes
 install apple-gcc42
 install autoconf
 install freetype
